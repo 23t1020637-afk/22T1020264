@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\.DS_Store" />
+    <None Include="wwwroot\img\.DS_Store" />
+    <None Include="wwwroot\img\organic-food\.DS_Store" />
+    <None Include="wwwroot\js\.DS_Store" />
+    <None Include="wwwroot\Karma Shop-doc\.DS_Store" />
+    <None Include="wwwroot\scss\.DS_Store" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SV22T1020264.BusinessLayers\SV22T1020264.BusinessLayers.csproj" />
+    <ProjectReference Include="..\SV22T1020264.DataLayers\SV22T1020264.DataLayers.csproj" />
+    <ProjectReference Include="..\SV22T1020264.Models\SV22T1020264.Models.csproj" />
+  </ItemGroup>
+
+</Project>
